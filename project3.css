@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Bitcount+Grid+Double:wght@100..900&family=Dancing+Script:wght@400..700&family=Manufacturing+Consent&family=Marhey:wght@300..700&display=swap');
+*{
+    font-family: BBH Sans Hegarty;
+
+}
+body{
+    background-color: rgb(242,242,242);
+}
+#contaner{
+    background-color: lightgreen;
+    border: 3px solid lightgreen;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 100px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+button{
+    background-color: blue;
+    color: white;
+border-radius: 8px;
+border: none;
+}
+button:active{
+    scale: 0.95;
+    background-color: orange;
+}
